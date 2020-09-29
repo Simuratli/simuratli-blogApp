@@ -9,7 +9,6 @@ import Button  from '../../../../components/UI/Button/Button'
 import * as action from '../../../../redux/actions/index'
 import {connect} from 'react-redux'
 import Loader from '../../../../components/UI/loader/loader'
-import {Redirect} from 'react-redux'
 
 function WriteNew(props) {
     

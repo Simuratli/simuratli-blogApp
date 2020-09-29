@@ -1,7 +1,6 @@
-import React,{Suspense,lazy,useEffect,useState} from 'react'
+import React,{Suspense,lazy,useEffect} from 'react'
 import queryString  from 'query-string'
 import {withRouter} from 'react-router-dom'
-import axios from '../../axios'
 import parse from 'html-react-parser'
 import * as action from '../../redux/actions/index'
 import { connect } from 'react-redux'

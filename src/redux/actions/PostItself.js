@@ -1,7 +1,5 @@
 import * as actionTypes from './actionTypes'
 import axios from '../../axios'
-import queryString  from 'query-string'
-import { browserHistory } from 'history';
 
 export const postItselfFetchStart = () => {
    return {

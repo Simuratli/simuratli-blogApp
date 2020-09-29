@@ -1,7 +1,6 @@
 import React,{useEffect} from 'react'
 import './Posts.scss';
 import Card from '../../components/UI/BlogSlider-card/Card'
-import axios from '../../axios'
 import {connect} from 'react-redux'
 import * as action from '../../redux/actions/index'
 import {withRouter} from 'react-router-dom'
