@@ -1,7 +1,7 @@
 import React,{Suspense,lazy} from 'react';
 import Navbar from '../../components/UI/Navbar/Navbar'
 import Footer from '../../components/UI/Footer/Footer'
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Index from '../Index/Index'
 const Reading = lazy(()=>{
   return import('../Reading/Reading')
@@ -14,7 +14,7 @@ const Posts = lazy(()=>{
 
 function Main() {
     return (
-        <BrowserRouter>
+        <Router>
       <div className="App">
           <Navbar/>
             <Switch>
@@ -42,7 +42,7 @@ function Main() {
             </Switch>
           <Footer/>
       </div>
-    </BrowserRouter>
+    </Router>
     )
 }
 
