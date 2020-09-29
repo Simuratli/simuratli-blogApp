@@ -1,0 +1,11 @@
+.post_header {
+    height: 250px;
+    width: 100%;
+    background-color: rosybrown;
+}
+.post_header img {
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}

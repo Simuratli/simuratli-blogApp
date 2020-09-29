@@ -1,0 +1,57 @@
+.card{
+    height: 326px;
+    width: 326px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card a{
+    text-decoration:none;
+    color: rgba($color: #000000, $alpha: 1.0);
+}
+
+.image{
+    height: 157px;
+}
+
+.image img {
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media(max-width:768px){
+    .card {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+.card-body{
+    padding: 14px;
+    
+}
+.card-head{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.card-text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.swiper-slide{
+    padding: 10px 0;
+    box-sizing: border-box;
+}

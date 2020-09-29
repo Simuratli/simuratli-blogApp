@@ -1,0 +1,42 @@
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #ccc;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+
+textarea {
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #ccc;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+
+.form-group{
+    display: block;
+}
+
+label{
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 15px;
+    letter-spacing: 2.5px;
+    text-align: left;
+}
+
+
+select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #ccc;
+    box-sizing: border-box;
+    margin: 5px 0;
+    font-size: 16px;
+}

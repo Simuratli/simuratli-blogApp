@@ -1,0 +1,37 @@
+.sidebar {
+    position: absolute;
+    left: 0;
+    top: 30vh;
+}
+
+.sidebar a {
+    display: block;
+    width: max-content;
+    background-color: #FFEAA7;
+    padding: 10px;
+    margin:10px 30px 10px 0;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 2px solid  #FFEAA7;
+}
+
+.sidebar a.active {
+    background-color: #7EE081;
+    border: 2px solid  #FFEAA7;
+}
+
+
+@media(max-width:700px){
+    .sidebar {
+        left: 10px;
+        top: 0;
+        display: flex;
+        z-index: 20;
+    }
+    .sidebar a {
+        display: block;
+        padding: 10px;
+        margin:10px;
+    }
+}

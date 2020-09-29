@@ -1,0 +1,16 @@
+.writeNew {
+    height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.preview {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+@media(max-width:700px){
+    .writeNew {
+        padding-top: 100px;
+    }
+}

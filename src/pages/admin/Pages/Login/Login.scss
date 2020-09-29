@@ -1,0 +1,19 @@
+.form-container{
+    padding: 40px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: grid;
+    background-color: black;
+    place-items: center;
+    background-image: url('../../../../assets/darkside.gif');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.form-container input {
+    width: 50vw;
+}
+
+.form-container label {
+    color: white;
+}
