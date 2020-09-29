@@ -10,14 +10,26 @@ import {withRouter} from 'react-router-dom'
 function BlogSlider(props) {
 
   const params = {
-    slidesPerView: 4,
-    spaceBetween: 30,
-    slidesPerGroup: 1,
     loopFillGroupWithBlank: true,
+    centeredSlides: true,
     autoplay: {
       delay: 1500,
       disableOnInteraction: false
     },
+    breakpoints: {
+      580: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+      },
+      860: {
+        slidesPerView: 1,
+        spaceBetween: 20
+    },
+      1080: {
+          slidesPerView: 3,
+          spaceBetween: 30
+      }
+  },
     pagination: {
       el: '.swiper-pagination',
       clickable: true
