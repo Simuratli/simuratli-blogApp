@@ -5,7 +5,7 @@ import parse from 'html-react-parser'
 import * as action from '../../redux/actions/index'
 import { connect } from 'react-redux'
 import Loader from '../../components/UI/loader/loader'
- 
+import './Reading.scss'
 const PostHeader = lazy(()=>{
     return import('../../components/UI/PostHeader/PostHeader')
 })
@@ -45,7 +45,7 @@ function Reading(props) {
     if(props.loading) post = <Loader/>
 
     return (
-        <section>
+        <section className='reading'>
             {post}
         </section>
     )

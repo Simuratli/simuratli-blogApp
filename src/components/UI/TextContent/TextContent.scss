@@ -3,9 +3,16 @@
     font-style: normal;
     font-weight: lighter;
     line-height:30px;
+    
 }
 
 .article img{
     width:90vw !important;
     margin:0 auto !important
-  }
+}
+
+  @media(max-width:800px){
+    .article{
+        padding: 10px !important;
+    }
+}
