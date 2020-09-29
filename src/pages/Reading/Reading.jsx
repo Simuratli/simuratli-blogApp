@@ -27,7 +27,7 @@ function Reading(props) {
     const parsed = queryString.parse(props.location.search);
     useEffect(() => {
         props.onFetchPostItself(parsed.id)
-    }, [])
+    })
 
     
     let post = <>
